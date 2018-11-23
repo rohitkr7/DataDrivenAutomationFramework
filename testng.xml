@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="TestCaseId" value="TC001_Fb_LoginTest"/>
+  <parameter name="sheetNumber" value="0" />
+  <parameter name="excelPath" value="/DDF/Resources/TestData.xlsx"/>
+    <classes>
+      <class name="fb_gmail_TC.Fb_Gmail_TC"/>
+    </classes>
+  </test> 
+</suite> 
